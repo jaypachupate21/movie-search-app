@@ -1,8 +1,4 @@
-
-require('dotenv').config();
-const apiKey=process.env.API_KEY;
-
-const API_KEY=apiKey;
+const API_KEY=import.meta.env.VITE_Api_Key;
 const BASE_URL="https://api.themoviedb.org/3";
 
 
